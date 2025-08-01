@@ -2,7 +2,7 @@ package Transporte;
 
 public class Tren extends Vehiculo {
     private int numeroVagones;
-    private String tipo; // "eléctrico" o "diésel"
+    private String tipo;
 
     public Tren(String id, int capacidadPasajeros, float velocidadMaxima, String estado,
                 int numeroVagones, String tipo) {
