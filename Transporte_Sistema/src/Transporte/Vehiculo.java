@@ -5,7 +5,7 @@ import java.util.Scanner;
         private String id;
         private int capacidadPasajeros;
         private float velocidadMaxima;
-        private String estado; // "en servicio" o "fuera de servicio"
+        private String estado;
 
         public Vehiculo(String id, int capacidadPasajeros, float velocidadMaxima, String estado) {
             this.id = id;
